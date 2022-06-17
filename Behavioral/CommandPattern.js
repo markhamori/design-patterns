@@ -6,6 +6,8 @@
 
 // Commands are seperated the actual object
 
+// Command pattern is popular in a text editor
+
 /////////////////////////////// WITHOUT COMMAND PATTERN
 // SIMPLE CALCULATOR
 
