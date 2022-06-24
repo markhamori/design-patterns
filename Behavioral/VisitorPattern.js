@@ -1,6 +1,7 @@
 // Allows to add or provide new operations and methods to an
 // object without actually changing the object itself
-// the new functionality and logic is kept in a seperate object
+
+// The new functionality and logic is kept in a seperate object
 // known as the visitor object
 
 // Visitor objects are useful when it comes to extending some

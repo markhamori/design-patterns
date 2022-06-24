@@ -3,7 +3,7 @@
 // We can treat the object that's being this null object
 // as if it was just a normal object of that same type
 
-// For example image object, or user system
+// For example image object, or a user system
 
 class User {
   constructor(id, name) {

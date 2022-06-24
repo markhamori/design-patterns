@@ -2,10 +2,11 @@
 // from one object known as the subject to many
 // other objects known as the observers
 
-// These observers are functions which watch the subject
+// These observers are functions, which watch the subject
 // and wait for some signal or trigger from the subject
 // before they run (like an event listener)
-// It useful and commonly used when it comes to creating
+
+// It is useful and commonly used when it comes to creating
 // event handling systems
 
 function Subject() {

@@ -1,12 +1,12 @@
-// Allows to define an object known as  the mediator
+// Allows to define an object known as the mediator
 // that encapsulate and controls how some set of
 // objects interact with each other
 
 // Object send message -> to a mediator, it handles the complex logic
 // and routing, to decide where these messages need to go
 
-// A chatroom, it has members, these members need to be able to send
-// information and from each other, but they're not going  to send
+// For example:A chatroom, it has members, these members need to
+// be able to send information, but they're not going to send
 // the messages directly to each other, they're going to send
 // the messages to a chat room object which is going to be the mediator
 
