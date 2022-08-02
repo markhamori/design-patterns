@@ -1,0 +1,9 @@
+- The command pattern idea is to take the
+different operations that we want something
+to do and encapsulate them into individual
+commands that have a perform and then
+an undo method
+
+- Commands are seperated the actual object
+
+- Command pattern is popular in a text editor

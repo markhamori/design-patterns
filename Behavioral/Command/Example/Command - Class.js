@@ -1,15 +1,8 @@
-// The command pattern idea is to take the
-// differentt operations that we want something
-// to do and encapsulate them into individual
-// commands that have a perform and then
-// an undo method
-
-// Commands are seperated the actual object
-
-// Command pattern is popular in a text editor
-
-/////////////////////////////// WITHOUT COMMAND PATTERN
 // SIMPLE CALCULATOR
+
+/////////////////////////////
+// WITHOUT COMMAND PATTERN //
+/////////////////////////////
 
 class Calculator {
   constructor() {
@@ -39,7 +32,10 @@ const calculator = new Calculator();
 // calculator.divide(2);
 // console.log(calculator.value);
 
-/////////////////////////////// WITH COMMAND PATTERN
+//////////////////////////
+// WITH COMMAND PATTERN //
+//////////////////////////
+
 class Calculator2 {
   constructor() {
     this.value = 0;

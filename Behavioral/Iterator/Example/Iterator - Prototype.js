@@ -1,11 +1,4 @@
-// Iterator pattern allows us to define our own rules of how to traverse
-// (iterate over) some collection of objects
-
-// Gives back a reference to the next available element in
-// that collection
-
 // This is a forward iterator
-
 const items = [1, "dev", false, 1.24];
 
 function Iterator(items) {
