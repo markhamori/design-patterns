@@ -1,9 +1,4 @@
-// Proxy pattern allows to use one object known as the proxy
-// as a placeholder for another object, proxy can control access
-// to that object so instead of using that object directly we
-// use the proxy and the proxy uses that object
 
-// We use proxy to add extra functionality
 
 // External API service
 function CryptoCurrencyAPI() {

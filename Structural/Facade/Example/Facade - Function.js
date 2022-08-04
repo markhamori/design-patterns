@@ -1,9 +1,3 @@
-// Create a facade between a complex code
-// and the actual business logic code that
-// you're writing
-
-// Example: fetch API built into the browser
-
 /////////////////////////// ORIGINAL
 
 function getUsers() {
