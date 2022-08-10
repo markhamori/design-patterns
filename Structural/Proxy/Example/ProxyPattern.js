@@ -1,5 +1,3 @@
-
-
 // External API service
 function CryptoCurrencyAPI() {
   this.getValue = function (coin) {
