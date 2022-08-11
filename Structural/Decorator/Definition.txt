@@ -1,1 +1,7 @@
 Decorator - Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+- Allows us to modify an object dynamically
+- We would use it when we want the capabilities of inheritance with subclasses, but we need to add functionality at run time
+- It is more flexible than inheritance
+- Simplifies code because we add functionality using many simple classes
+- Rather than rewrite old code we can extend with new code

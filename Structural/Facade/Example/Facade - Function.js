@@ -1,4 +1,4 @@
-/////////////////////////// ORIGINAL
+/////////////////////////// WITHOUT FACADE
 
 function getUsers() {
   return fetch("https://jsonplaceholder.typicode.com/users", {
