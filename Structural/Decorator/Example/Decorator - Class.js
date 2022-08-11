@@ -9,9 +9,9 @@ class User {
 }
 
 class DecoratedUser {
-  constructor(user, name, street, city) {
+  constructor(user, street, city) {
     this.user = user;
-    this.name = name;
+    this.name = user.name;
     this.street = street;
     this.city = city;
   }
