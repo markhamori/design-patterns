@@ -1,0 +1,10 @@
+- The Flyweight pattern is a classical structural solution for optimizing code that is repetitive, slow, and inefficiently shares data. 
+
+- It aims to minimize the use of memory in an application by sharing as much data as possible with related objects
+
+- There are two ways in which the Flyweight pattern can be applied. The first is at the data layer, where we deal with the concept of sharing data between large quantities of similar objects stored in memory.
+
+- The second is at the DOM layer, where the Flyweight can be used as a central event-manager to avoid attaching event handlers to every child element in a parent container we wish to have some similar behavior.
+
+
+https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch09s18.html

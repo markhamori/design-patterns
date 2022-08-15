@@ -29,19 +29,19 @@ Node.prototype = {
 function traverse(indent, node) {
   console.log(Array(indent++).join("--") + node.name);
 
-  for (var i = 0, len = node.children.length; i < len; i++) {
+  for (let i = 0, len = node.children.length; i < len; i++) {
       traverse(indent, node.getChild(i));
   }
 }
 
 function run() {
-  var tree = new Node("root");
-  var left = new Node("left")
-  var right = new Node("right");
-  var leftleft = new Node("leftleft");
-  var leftright = new Node("leftright");
-  var rightleft = new Node("rightleft");
-  var rightright = new Node("rightright");
+  let tree = new Node("root");
+  let left = new Node("left")
+  let right = new Node("right");
+  let leftleft = new Node("leftleft");
+  let leftright = new Node("leftright");
+  let rightleft = new Node("rightleft");
+  let rightright = new Node("rightright");
 
   tree.add(left);
   tree.add(right);
